@@ -1,0 +1,74 @@
+{
+  "markers": [
+    {
+      "id": "beacon-01",
+      "category": "beacon",
+      "name": "Central Spire Beacon",
+      "position": [50, 50],
+      "description": "Primary resonance beacon at the heart of the Black Shores. Serves as the central fast travel node connecting all sectors."
+    },
+    {
+      "id": "beacon-02",
+      "category": "beacon",
+      "name": "Northern Ridge Beacon",
+      "position": [30, 22],
+      "description": "Elevated beacon overlooking the northern ridge. Provides access to the upper observation platforms."
+    },
+    {
+      "id": "beacon-03",
+      "category": "beacon",
+      "name": "Tidal Basin Beacon",
+      "position": [68, 75],
+      "description": "Coastal beacon near the tidal research basin. Required for accessing underwater research zones."
+    },
+    {
+      "id": "boss-01",
+      "category": "boss",
+      "name": "Abyssal Warden",
+      "position": [25, 60],
+      "description": "Elite-tier Tacet Discord entity. Drops Spectro-type ascension materials. Weekly reset. Recommended level: 70+."
+    },
+    {
+      "id": "boss-02",
+      "category": "boss",
+      "name": "Void Sentinel",
+      "position": [72, 35],
+      "description": "World boss patrolling the eastern corridor. Drops resonance upgrade materials. Respawns every 3 minutes."
+    },
+    {
+      "id": "boss-03",
+      "category": "boss",
+      "name": "Corrupted Observer",
+      "position": [45, 82],
+      "description": "Mini-boss guarding the southern archives. Drops echo tuning materials. Moderate difficulty."
+    },
+    {
+      "id": "quest-01",
+      "category": "quest",
+      "name": "Shorekeeper's Origin",
+      "position": [52, 42],
+      "description": "Main story quest location. The site where Shorekeeper's consciousness was first initialized within the Tethys system."
+    },
+    {
+      "id": "quest-02",
+      "category": "quest",
+      "name": "Lost Research Terminal",
+      "position": [38, 55],
+      "description": "Side quest trigger point. An abandoned research terminal containing fragments of pre-Lament data."
+    },
+    {
+      "id": "quest-03",
+      "category": "quest",
+      "name": "Stellar Array Control",
+      "position": [60, 28],
+      "description": "Story quest location. The control centre for the Stellar Array — key to unlocking Shorekeeper's full capabilities."
+    },
+    {
+      "id": "quest-04",
+      "category": "quest",
+      "name": "Deep Archives Entrance",
+      "position": [80, 65],
+      "description": "World quest trigger. Entrance to the deep archives containing classified Tethys records."
+    }
+  ]
+}

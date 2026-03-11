@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shorekeepermains.com/sitemap.xml

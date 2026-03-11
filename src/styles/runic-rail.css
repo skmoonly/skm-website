@@ -1,0 +1,56 @@
+/* =========================================================
+   Runic Rail Animation — SKM scrolling decorative side rails
+   Low-opacity alien/runic script CSS keyframe animation
+   ========================================================= */
+
+/* The "runic" characters — a mix of unicode symbols that read
+   as alien script at low opacity and fast scroll speed */
+@keyframes runicScroll {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+.skm-rail {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 18px;
+  overflow: hidden;
+  pointer-events: none;
+  user-select: none;
+  opacity: 0.12;
+  color: var(--rail-text);
+  font-family: var(--font-mono);
+  font-size: 9px;
+  line-height: 1.4;
+  letter-spacing: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skm-rail--left {
+  left: 4px;
+}
+
+.skm-rail--right {
+  right: 4px;
+}
+
+.skm-rail__inner {
+  animation: runicScroll 12s linear infinite;
+  /* Double the content so the loop is seamless */
+  white-space: pre;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+/* Hover — rails brighten slightly */
+.skm-panel:hover .skm-rail {
+  opacity: 0.2;
+  transition: opacity 0.3s ease;
+}

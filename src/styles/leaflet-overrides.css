@@ -1,0 +1,85 @@
+/* ── Leaflet Override Styles ─────────────────────────────────────────────────
+ * Restyle default Leaflet controls to match the SKM dark terminal aesthetic.
+ * Import this in the map page component.
+ */
+
+/* Base leaflet container */
+.leaflet-container {
+  background: #060e20 !important;
+  font-family: var(--font-mono) !important;
+}
+
+/* ── Zoom controls ── */
+.leaflet-control-zoom {
+  border: 1px solid rgba(0, 170, 255, 0.25) !important;
+  border-radius: 0 !important;
+  box-shadow: 0 0 12px rgba(0, 68, 187, 0.3) !important;
+  overflow: hidden;
+}
+
+.leaflet-control-zoom a {
+  background: rgba(6, 14, 32, 0.95) !important;
+  color: var(--accent-primary) !important;
+  border: none !important;
+  border-bottom: 1px solid rgba(0, 170, 255, 0.15) !important;
+  width: 32px !important;
+  height: 32px !important;
+  line-height: 32px !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  transition: background 0.15s ease;
+}
+
+.leaflet-control-zoom a:hover {
+  background: rgba(0, 68, 187, 0.25) !important;
+  color: #e0f0ff !important;
+}
+
+.leaflet-control-zoom a:last-child {
+  border-bottom: none !important;
+}
+
+/* ── Tooltips ── */
+.leaflet-tooltip {
+  background: rgba(6, 14, 32, 0.95) !important;
+  color: #e0f0ff !important;
+  border: 1px solid rgba(0, 170, 255, 0.35) !important;
+  border-radius: 0 !important;
+  box-shadow: 0 0 16px rgba(0, 68, 187, 0.4) !important;
+  font-family: var(--font-mono) !important;
+  font-size: 0.65rem !important;
+  letter-spacing: 0.08em !important;
+  padding: 6px 12px !important;
+}
+
+.leaflet-tooltip::before {
+  border-top-color: rgba(0, 170, 255, 0.35) !important;
+}
+
+/* ── Attribution ── */
+.leaflet-control-attribution {
+  background: rgba(6, 14, 32, 0.8) !important;
+  color: var(--contour) !important;
+  font-family: var(--font-mono) !important;
+  font-size: 0.5rem !important;
+  letter-spacing: 0.06em !important;
+  border: none !important;
+}
+
+.leaflet-control-attribution a {
+  color: var(--accent-primary) !important;
+}
+
+/* ── Popups (unused but styled for safety) ── */
+.leaflet-popup-content-wrapper {
+  background: rgba(6, 14, 32, 0.95) !important;
+  color: #e0f0ff !important;
+  border: 1px solid rgba(0, 170, 255, 0.3) !important;
+  border-radius: 0 !important;
+  box-shadow: 0 0 20px rgba(0, 68, 187, 0.4) !important;
+}
+
+.leaflet-popup-tip {
+  background: rgba(6, 14, 32, 0.95) !important;
+  border: 1px solid rgba(0, 170, 255, 0.3) !important;
+}
